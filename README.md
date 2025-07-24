@@ -24,8 +24,11 @@
 Для корректной установки скетча понадобится:
 
 ПК с ОС Windows
-Установленная программа ArduinoIDE. Ссылка: https://www.arduino.cc/en/software
-Драйвер CH340 или CH341. Ссылка: https://wch-ic.com/downloads/CH341SER_EXE.html
+Установленная программа ArduinoIDE.
+Ссылка: https://www.arduino.cc/en/software
+Драйвер CH340 или CH341.
+Ссылка: https://wch-ic.com/downloads/CH341SER_EXE.html
+
 Необходимые библиотеки для ArduinoIDE:
 
 GyverINA: https://github.com/GyverLibs/GyverINA
