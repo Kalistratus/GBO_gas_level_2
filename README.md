@@ -23,15 +23,15 @@
 
 Для корректной установки скетча понадобится:
 
-ПК с ОС Windows
-Установленная программа ArduinoIDE - ссылка: https://www.arduino.cc/en/software
-Драйвер CH340 или CH341 - ссылка: https://wch-ic.com/downloads/CH341SER_EXE.html
+1. ПК с ОС Windows
+2. Установленная программа ArduinoIDE - ссылка: https://www.arduino.cc/en/software
+3. Драйвер CH340 или CH341 - ссылка: https://wch-ic.com/downloads/CH341SER_EXE.html
 
 Необходимые библиотеки для ArduinoIDE:
 
-GyverINA: https://github.com/GyverLibs/GyverINA 
-GyverOLED: https://github.com/GyverLibs/GyverOLED 
-GyverButton: https://github.com/GyverLibs/GyverButton 
-EEManager: https://github.com/GyverLibs/EEManager 
-GyverDS18: https://github.com/GyverLibs/GyverDS18
-и другие библиотеки (указаны в самом начале файла сос скетчем)
+1. GyverINA: https://github.com/GyverLibs/GyverINA
+2. GyverOLED: https://github.com/GyverLibs/GyverOLED
+3. GyverButton: https://github.com/GyverLibs/GyverButton
+4. EEManager: https://github.com/GyverLibs/EEManager
+5. GyverDS18: https://github.com/GyverLibs/GyverDS18
+6. ...и другие библиотеки (указаны в самом начале файла сос скетчем)
