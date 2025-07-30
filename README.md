@@ -1,4 +1,5 @@
 Вторая версия скетча для отображения остатка газа в баллоне ГБО (в литрах).
+Текущая версия ПО: 1.00 (от...) - первый релиз
 
 Изменения и улучшения в данной версии:
 1. Arduino Mega вместо Nano
@@ -10,12 +11,12 @@
 7. Часы/дата (модуль часов реального времени)
 8. Автоматическая регулировка яркости дисплея
 9. GPS (скорость, координаты, альтиметр, часы/дата по спутникам)
-10. Парктроник
+10. Парктроник (пока ещё в тестовом режиме, хотя в домашних условиях показания более-менее стабильны)
 11. Реле для самостоятельного управления вентилятором охлаждения
 12. 5 датчиков температуры
-13. Подключение к датчику скорости (скорость, одометр)
+13. Подключение к датчику скорости - скорость, одометр (требуется подтверждение от пользователей о корректной работе)
 14. Звук (пассивный зуммер) + светодиод RGB
-15. Замер разгона авто
+15. Замер разгона авто (пока в тестовом режиме, считает не совсем корректно)
 16. Инфо о замене расходников
 17. Возможность создавать свои названия для имени и датчиков температуры
 18. Реле задержки для возможности сохранения одометра и литража во врутренней памяти Arduino
@@ -26,12 +27,18 @@
 1. ПК с ОС Windows
 2. Установленная программа ArduinoIDE - ссылка: https://www.arduino.cc/en/software
 3. Драйвер CH340 или CH341 - ссылка: https://wch-ic.com/downloads/CH341SER_EXE.html
+4. Возможно понадобится программа для настройки GPS-модуля: https://www.u-blox.com/en/product/u-center
 
 Необходимые библиотеки для ArduinoIDE:
 
 1. GyverINA: https://github.com/GyverLibs/GyverINA
 2. GyverOLED: https://github.com/GyverLibs/GyverOLED
-3. GyverButton: https://github.com/GyverLibs/GyverButton
+3. EncButton: https://github.com/GyverLibs/EncButton
 4. EEManager: https://github.com/GyverLibs/EEManager
 5. GyverDS18: https://github.com/GyverLibs/GyverDS18
-6. ...и другие библиотеки (указаны в самом начале файла сос скетчем)
+6. GyverDS3231: https://github.com/GyverLibs/GyverDS3231
+7. BH1750FVI: https://github.com/claws/BH1750
+8. iarduino_GPS_NMEA: https://iarduino.ru/file/538.html (при публикации данной библиотеки автор требует указывать ссылку: http://iarduino.ru )
+9. Tachometer: https://github.com/GyverLibs/Tachometer
+10. NewPing: https://bitbucket.org/teckel12/arduino-new-ping/wiki/Home
+11. toneAC: https://github.com/teckel12/arduino-toneac
