@@ -1,7 +1,6 @@
-Вторая версия скетча для отображения остатка газа в баллоне ГБО (в литрах).
+Вторая версия устройства для отображения остатка газа в баллоне ГБО на Arduino (в литрах).
 
 Текущая версия ПО: 1.00 (от 24.07.2025) - первый релиз
-
 
 Изменения и улучшения в данной версии:
 1. Arduino Mega вместо Nano
@@ -26,7 +25,6 @@
 
 
 Для корректной установки скетча понадобится:
-
 1. ПК с ОС Windows
 2. Установленная программа ArduinoIDE - ссылка: https://www.arduino.cc/en/software
 3. Драйвер CH340 или CH341 - ссылка: https://wch-ic.com/downloads/CH341SER_EXE.html
@@ -34,7 +32,6 @@
 
 
 Необходимые библиотеки для ArduinoIDE:
-
 1. GyverINA: https://github.com/GyverLibs/GyverINA
 2. GyverOLED: https://github.com/GyverLibs/GyverOLED
 3. EncButton: https://github.com/GyverLibs/EncButton
